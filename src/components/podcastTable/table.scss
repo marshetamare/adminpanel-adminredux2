@@ -1,0 +1,147 @@
+.table {
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .link{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 300;
+    cursor: pointer;
+
+
+    &.true {
+      color: green;
+      background-color: rgba(0, 128, 0, 0.151);
+      &:hover{
+        color: black;
+        background-color: #f11a1a;
+      }
+    }
+    &.false {
+      color: goldenrod;
+      background-color: rgba(219, 219, 109, 0.116);
+      &:hover{
+        color:white;
+        background-color: #185adb;
+      }
+    }
+  }
+}
+
+.icons{
+  color: #ffcc20;
+  cursor:pointer;
+}
+.editIcon:hover{
+  &:hover{
+    width:30px;
+    width:30px;
+    background-color: #f5f120;
+    border-radius: 15px;
+    color:black;
+  }
+}
+.deleteIcon{
+
+  color: #f11a1a;
+  cursor:pointer;
+  &:hover{
+    width:30px;
+    height: 30px;
+    background-color: #f11a1a;
+    border-radius: 15px;
+    color:black;
+  }
+}
+
+
+.cellAction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .viewButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px dotted rgba(0, 0, 139, 0.596);
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px dotted rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+  }
+}
+
+
+.left {
+  flex: 1;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 0 solid white;
+  transform: translateX(20px);
+
+  h1 {
+    font-size: xx-large;
+    color: #f11a1a;
+    object-fit: cover;
+    cursor: pointer;
+    &:hover{
+      box-shadow: rgba(1, 0.9, 12, 0.596);
+      box-sizing: border-box;
+      font-weight: bold;
+      font-size: 60px;
+      transform: translateY(-10px);
+      text-shadow: rgba(1, 0.9, 12, 0.596);
+      
+
+    }
+  }
+}
+
+.primaryBtn {
+  margin: 20px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 13px 25px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: #185adb;
+  transition: all 0.25s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}

@@ -1,0 +1,97 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(212, 13, 13);
+  min-height: 100vh;
+
+
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #6439ff;
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+  }
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: rgb(153, 153, 153);
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 7px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #fac107;
+        }
+
+        .icon {
+          font-size: 18px;
+          color: #05db05;
+        }
+
+        span{
+            font-size: 13px;
+            font-weight: 600;
+            color: rgb(238, 131, 9);
+            margin-left: 10px;
+        }
+      }
+      Accordion{
+        background-color: black;
+      }
+      AccordionDetails{
+        background-color:#05db05;
+      }
+    }
+  }
+
+  .bottom{
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      .colorOption{
+          width: 20px;
+          height: 20px;
+          border-radius: 5px;
+          border: 1px solid #51f859;
+          cursor: pointer;
+          margin: 5px;
+
+          &:nth-child(1){
+              background-color: rgb(20, 19, 19);
+          }
+          &:nth-child(2){
+              background-color: #333;
+          }
+          &:nth-child(3){
+              background-color: darkblue;
+          }
+      }
+  }
+}

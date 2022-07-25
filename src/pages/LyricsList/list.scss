@@ -1,0 +1,88 @@
+.list {
+  display: flex;
+  width: 100%;
+  .listContainer {
+    flex: 6;
+  }
+}
+
+
+
+.lyricsDashboard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  margin-left: 5px;
+  margin: 10px;
+  width: 100%;
+  border-top: #ccc5 2px solid;
+  border-bottom: #ccc5 4px solid;
+  z-index: 1000;
+  box-sizing: border-box;
+  box-shadow: #564567;
+  margin-bottom: 2rem;
+  margin-top: 1.2rem;
+  padding: 1rem;
+}
+
+.lyricsMainHead{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+h3{
+  color:black;
+  font-size: large;
+  font-weight: 400;
+
+}
+}
+
+.preDashHead{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  h3{
+    color:black;
+    font-size: large;
+    font-weight: 400;
+    
+  }
+  p{
+    color:black;
+    font-size: large;
+    font-weight: 400;
+    
+    padding: 8px;
+  }
+  h5{
+    color:#5665;
+    font-size: medium;
+    font-weight: 400;
+    padding: 8px;
+  }
+
+  }
+  .addButnLyrics{
+    cursor:pointer;
+  }
+  .detailConatiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #cccc;
+    height: 100vh;
+    width: 100%;
+  }
+.txtArea{
+  width: 100%;
+  height: 60vh;
+  margin-left: 20px;
+ 
+  top: 5vh;
+}
+.artistInfo{
+width: 60%;
+height: fit-content;
+}

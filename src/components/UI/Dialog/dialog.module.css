@@ -1,0 +1,15 @@
+.closeBtn:hover{
+    background-color: #5466;
+    color:red;
+    width: 100px;
+    font-size: large;
+    padding: 5px;
+    border-radius: 12px;
+    transform: translateY(-5px);
+    content: "Cancel";
+   
+
+}
+.closeBtn::after{
+    text-decoration: underline;
+}
